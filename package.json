@@ -1,0 +1,22 @@
+{
+  "name": "mini-mock",
+  "version": "1.0.0",
+  "description": "a mini server provide services with mock data",
+  "main": "index.js",
+  "dependencies": {
+    "minimatch": "^3.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mock"
+  ],
+  "author": "zhengxc",
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "mini": "index.js"
+  }
+}
